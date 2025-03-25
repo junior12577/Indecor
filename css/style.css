@@ -1,0 +1,298 @@
+:root {
+    --primary: #00baf2;
+    --secondary: #95989a;
+    --text-color: #fff;
+    --text-secondary: #000;
+    --text-tertiary: #5d5d5d;
+  }
+  
+  * {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+  }
+  
+#header{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagens/Design\ sem\ nome.jpg);
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    color: var(--primary-text-color);
+
+}
+.fundo-cinza{
+    background-color: var(--secondary);
+    
+}
+.text-header{
+    font-family: 'Mountserrat' sans-serif;
+  
+}
+.text-header h2{
+    color: var(--primary);
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+.text-header .header-subtitle{
+    display: flex;
+    width: 22rem;
+    text-align: left;
+    font-weight: bold;
+    color: var(--text-color);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
+}
+.text-header h4{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+    color: var(--text-color);
+}
+.text-header span{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.form-control{
+    background-color: var(--secondary);
+    width: 450px;
+    height: 500px;
+    gap: 10rem;
+    
+}
+
+#header .header-form{
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+
+
+    gap: 22rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control input,
+#interesses{
+    gap: 1rem;
+    border-radius: 0.5rem;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 23rem;
+    height: 2.5rem;
+    
+}
+.form .text-form{
+    margin-top: 2rem;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 30px;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+
+}
+.form label{
+    color: var(--text-tertiary);
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.form-control .btn-form{
+    color: var(--text-color);
+    text-decoration: none;
+    display: flex;
+    background-color: var(--primary);
+    width: 23rem;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    margin-top: 1rem;
+}
+.title-learn{
+    background-color: var(--secondary);
+    height: 8rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container-decor-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 10rem;
+}
+.container-decor-img img{
+    border-radius: 15rem;
+    width: 20rem;
+    height: 20rem;
+}
+.imagem-decor{
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.imagem-decor p{
+    text-align: center;
+    width: 20rem;
+    text-justify: center;
+    flex-direction: column;
+    
+}
+.location{ 
+    margin-top: 5rem;
+    background-image: url(../imagens/hrz-1.jpg);
+    height: 60vh;
+}
+.location .filtro{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 60vh;
+    background-color: var(--text-secondary);
+    opacity: 80%;
+   
+}
+
+.filtro .location-rua{
+    
+    color: var(--text-color);
+    font-size: 25px;
+}
+.location .location-info{
+    display: flex;
+    gap: 15rem;
+}
+.location-rua {
+    display: flex;
+}
+ 
+.location-rua i{
+    font-size: 75px;
+    color: var(--primary);
+}
+.location-rua p{
+     width: 280px;
+     text-align: center;
+     font-size: 24px;
+     
+}
+
+.destaque p{
+    color: var(--text-color);
+    width: 500px;
+    font-size: 20px;
+}
+.destaque h1{
+    
+    color: var(--primary);
+    font-size: 35px;
+}
+.ambiente{
+    padding: 5rem;
+    gap: 50px;
+    display: flex;
+}
+.ambiente-img img{
+    width: 800px;
+    height: 500px;
+}
+.title-ambiente{
+    width:750px ;
+    text-align: left;
+    font-size: 2.5rem;
+    
+}
+
+.title-ambiente2{
+    font-weight: normal;
+    font-size: 2px;
+}
+
+.ambiente2 .list{
+  margin-top: 1rem;
+  font-size: 25px;
+  
+}
+.negrito{
+    font-weight: bold;
+}
+.title-ambiente2{
+    font-weight: normal;
+    font-size: 2px;
+}
+.ambiente3 .list{
+    
+    margin-top: 1rem;
+    font-size: 25px;
+  }
+.ambiente3{
+    margin-left: 3rem;
+}
+.ambiente4{
+    display: flex;
+    padding: 5rem;
+}
+.inscreva{ 
+    margin-top: 5rem;
+    background-image: url(../imagens/Design\ sem\ nome\ \(5\).jpg);
+    height: 50vh;
+}
+.inscreva .filtro2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
+    background-color: var(--text-secondary);
+    opacity: 80%;
+    text-align: center;
+    gap: 5rem;
+   
+}
+.info-inscrever h1{
+    color: var(--text-color);
+    width: 500px;
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+
+.info-inscrever a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    width: 500px;
+    font-size: 30px;
+    background-color: var(--primary);
+    font-weight: bold;
+    height: 70px;
+    text-decoration: none;
+}
+.footer{
+    
+    padding: 2rem;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--secondary);
+    font-weight: normal-;
+}
+
+.footer-div{
+    line-height: 3rem;
+   
+}
